@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practico 0</title>
+</head>
+
+<body>
+  <h1>Practico 0</h1>
+
+  <h2>Ejercicio 1:</h2>
+  <p>
+    Crear dos campos de texto con etiquetas nombre y apellido y un botón con
+    texto "mostrar formateado"
+  </p>
+  <form action="#">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <br />
+
+      <label for="txtNombre1">Nombre:</label>
+      <input type="text" id="txtNombre1" placeholder="Ingrese su Nombre" /><br /><br />
+
+      <label for="txtApellido1">Apellido:</label>
+      <input type="text" id="txtApellido1" placeholder="Ingrese su Apellido" /><br /><br />
+
+      <input type="button" value="Mostrar Formateado" id="btnFormat1" />
+    </fieldset>
+  </form>
+
+  <h2>Ejercicio 2:</h2>
+  <p>
+    Crear dos campos de texto con etiqueta valor 1 y valor 2 y un botón con
+    texto "Calcular suma". Además crear un párrafo con el texto "Resultado"
+  </p>
+
+  <form action="#">
+    <fieldset>
+      <legend>Suma de valores</legend>
+      <br />
+
+      <label for="txtValor1">Ingrese un valor</label>
+      <input type="number" id="txtValor1" placeholder="Ingrese un valor" /><br /><br />
+
+      <label for="txtValor2">Ingrese un valor</label>
+      <input type="number" id="txtValor2" placeholder="Ingrese un valor" /><br /><br />
+
+      <input type="button" value="Calcular suma" id="btnSuma1" />
+      <p id="">Resultado:</p>
+    </fieldset>
+  </form>
+
+  <h2>Ejercicio 3</h2>
+  <p>
+    Crear dos campos de texto, uno para ingresar un valor, otro para ingresar
+    un tipo de cambio, un botón para la conversión y un párrafo para mostrar
+    un texto. Solamente crear los elementos HTML — las funcionalidades se
+    crearán más adelante.
+  </p>
+
+  <form action="#">
+    <fieldset>
+      <legend>Campos</legend>
+      <br />
+      <label for="txtValor2">Ingrese un valor:</label>
+      <input type="number" id="txtValor2" placeholder="Ingrese un valor" /><br /><br />
+      <label for="txtValor3">Ingrese tipo de cambio:</label>
+      <input type="number" id="txtValor3" placeholder="Ingrese tipo de cambio" /><br /><br />
+      <input type="button" value="Calcular conversión" id="btnConversion1" /><br /><br />
+      <p id="txtMostrar">mostrar un texto</p>
+    </fieldset>
+  </form> <br>
+
+
+  <h2>Ejercicio 4</h2>
+
+  <p>Crear tres campos para ingreso de cantidades disponibles para una receta.Un campo tendrá etiqueta de '"gramos de
+    harina", otro "cucharadas de aceite" y otro "tazas de agua". Finalmente crear un botón "Calcular recetas" y un
+    párrafo donde mostrar un resultado.</p>
+  </p>
+
+  <form action="#">
+    <fieldset>
+      <legend>Crear tres campos</legend>
+      <br>
+      <label for="txtGramos">Gramos de Harina</label>
+      <input type="number" id="txtGramos" placeholder="Ingrese grs. de Harina"><br><br>
+      <label for="txtAceite">Cucharadas de aceite</label>
+      <input type="number" id="txtAceite" placeholder="Ingrese cucharadas de aceite"><br><br>
+      <label for="txtAgua">Tazas de agua</label>
+      <input type="number" name="" id="txtAgua" placeholder="Ingresa cantidad de tazas"><br><br>
+      <input type="button" value="Calcular recetas" id="btnCalcular">
+      <p id="txtMostrar">Resultado:</p>
+    </fieldset>
+  </form><br><br>
+  <hr>
+  <h2>Ejercicio 5</h2>
+  <p>Crear una tabla con tres filas y tres celdas en cada fila, dentro de cada celda incluir una imagen. </p>
+
+
+
+  <table border="1px">
+    <caption>
+      <strong>Tabla de tres filas </strong>
+    </caption>
+    <thead>
+    </thead>
+    <tfoot>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td><img src="img/JS.jpg" alt="logo Javascript" width="300px" height="300px"></td>
+        <td><img src="img/ReactJS.jpg" alt="logo ReactJS  " width="300px" height="300px"></td>
+        <td><img src="img/Vue.jpg" alt="logo Vue" width="300px" height="300px"></td>
+      </tr>
+      <tr>
+        <td><img src="img/angular.jpg" alt="Logo angular" width="300px" height="300px"></td>
+        <td><img src="img/php.jpg" alt="Logo php" width="300px" height="300px"></td>
+        <td><img src="img/ruby.jpg" alt="Logo Ruby" width="300px" height="300px"></td>
+      </tr>
+      <tr>
+        <td><img src="img/c++.jpg" alt="Logo c++" width="300px" height="300px"></td>
+        <td><img src="img/java-logo.jpg" alt="Java logo" width="300px" height="300px"></td>
+        <td><img src="img/images.jpeg" alt="Next JS logo" width="300px" height="300px"></td>
+      </tr>      
+    </tbody>
+  </table>
+</body>
+
+</html>
